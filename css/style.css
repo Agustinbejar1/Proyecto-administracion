@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+p{
+  text-align: justify;
+}
+
+  :root{
+    --first-color: rgb(130, 194, 255);
+    --second-color: rgb(59, 81, 168);
+    --third-color: rgb(182, 70, 219);
+    --third-alpha-color: rgb(80, 20, 100, 0,70);
+
+    --bg-color:rgb(245, 245, 245);
+    --bg-alpha-color: rgb(245, 245, 245, 0,75);
+  }
+  
+  body{
+    font-family: "raleway";
+  }
+
+/* Bootstrap styles */
+.bg-warning{
+  background-color: var(--second-color) !important;
+}
+
+.nav-item:hover {
+  background-color:var(--first-color);
+}
+
+.nav-item{
+  padding: 5px;
+}
+
+.nav-link{
+  font-weight: bold;
+  font-size: large;
+  color: rgb(250, 196, 250);
+}
+
+.carousel-inner img{
+  height: 600px;
+  width: 900px;
+
+}
+
+
+/* Estilos de mi footer */
+
+footer{
+  height:10vh;
+}
+
+footer img{
+  height: 25px;
+  width: 25px;
+  border-radius: 60%;
+}
+
+footer .derechos{
+  color: rgb(250, 196, 250);
+}
+
+footer .enlacefooter{
+  color: rgb(250, 196, 250);
+}
+/* fin estilo footer */
+
+/* My styles */
+.bg-gradient-blue-green{
+  background-color: rgba(83, 184, 152, 1);
+  background-image: linear-gradient(
+    120deg,
+    rgba(12, 105, 182, 0.91),
+    rgba(83, 184, 152, 1)
+    );
+}
+
+.bg-gradient-blue-grey{
+  background-color: rgb(224, 71, 71);
+  background-image: linear-gradient(
+    120deg,
+    rgba(168, 136, 155, 0.91),
+    rgb(191, 235, 213)
+    );
+}
+
+.bg-gradient-white{
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 218, 240, 0.91),
+    rgb(255, 255, 255)
+    );
+}
+
+.portada{
+  background-image: url("../assets/imagenes/imgportada.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+
+#seccionprincipal img{
+  height: 200px;
+  width: 200px;
+  box-shadow: 15px 20px 55px;
+}
+
+.imageneshome img{
+  height: 200px;
+  width: 200px;
+}
+
+.carouselcontenido p{
+  color: rgb(0, 0, 0);
+}
+
+#contacto img{
+  height: 25px;
+  width: 25px;
+}
+
+.formulario input:hover {
+  background-color: bisque;
+}
+
+p{
+  text-align: justify;
+}
+
+
+/* Small devices (phones) */
+@media (min-width:576px){
+}
+/* Medium devices (tablets) */
+@media (min-width:768px){
+
+}
+/* Large devices */
+@media (min-width:992px){
+  .nav-item:hover {
+    background-color: transparent;
+  }
+  
+}
+/* X-large devices */
+@media (min-width:1200px){
+
+}
+/* XX-Large devices */
+@media (min-width:1400px){
+
+}
+
