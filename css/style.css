@@ -23,7 +23,7 @@ p{
   }
 
 /* Bootstrap styles */
-.bg-warning{
+.bg-miestilo{
   background-color: var(--second-color) !important;
 }
 
