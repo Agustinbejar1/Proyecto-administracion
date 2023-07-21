@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Raleway:wght@400;700;900&display=swap');
 
-$raleway: "raleway";
-$bg-nav: rgb(59, 81, 168);
+// Background estilados
 
-$bg-main: rgb(83, 184, 152, 1)
+$bg-nav: rgb(59, 81, 168);
+$bg-main: 
+      rgb(83, 184, 152, 1)
           linear-gradient(
       120deg,
       rgb(12, 105, 182, 0.91),
@@ -14,11 +15,16 @@ $bg-rosado:linear-gradient(
     120deg,
     rgb(148, 109, 132, 0.91),
     rgb(156, 111, 111),
-    rgb(255, 255, 255),
+    rgb(226, 159, 159),
     );
 
 $bg-celeste: rgb(130, 194, 255);
 $rosa: rgb(250, 196, 250);
+
+
+// Fuentes
+
+$raleway: "raleway";
 $ancho-img: 25px,
         
 

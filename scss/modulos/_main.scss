@@ -1,0 +1,17 @@
+main{
+    background: $bg-main;
+    .portada{
+        background: url("../assets/imagenes/imgportada.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+        #seccionprincipal {
+            background: $bg-rosado;
+            img{
+                height: 200px;
+                width: 200px;
+                box-shadow: 15px 20px 55px;
+            }
+        }
+}

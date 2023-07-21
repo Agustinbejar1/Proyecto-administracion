@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   font-family: "raleway";
 }
+body p {
+  text-align: justify;
+}
 
 header {
   background-color: rgb(59, 81, 168);
@@ -16,6 +19,40 @@ header .nav-link {
   font-weight: bold;
   font-size: large;
   color: rgb(250, 196, 250);
+}
+
+main {
+  background: rgb(83, 184, 152) linear-gradient(120deg, rgba(12, 105, 182, 0.91), rgb(83, 184, 152));
+}
+main .portada {
+  background: url("../assets/imagenes/imgportada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+main #seccionprincipal {
+  background: linear-gradient(120deg, rgba(148, 109, 132, 0.91), rgb(156, 111, 111), rgb(226, 159, 159));
+}
+main #seccionprincipal img {
+  height: 200px;
+  width: 200px;
+  box-shadow: 15px 20px 55px;
+}
+
+main .carouselcontenido p {
+  color: black;
+}
+main .carouselcontenido img {
+  height: 600px;
+  width: 900px;
+}
+
+#contacto img {
+  height: 25px;
+  width: 25px;
+}
+#contacto .formulario input:hover {
+  background-color: bisque;
 }
 
 footer {
