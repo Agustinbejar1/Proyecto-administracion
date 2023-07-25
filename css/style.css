@@ -32,11 +32,21 @@ main .portada {
 }
 main #seccionprincipal {
   background: linear-gradient(120deg, rgba(148, 109, 132, 0.91), rgb(156, 111, 111), rgb(226, 159, 159));
+  box-shadow: 10px 15px 55px;
 }
 main #seccionprincipal img {
   height: 200px;
   width: 200px;
-  box-shadow: 15px 20px 55px;
+}
+main .imagenhome img {
+  height: 350px;
+}
+
+#quienessomos #articulomio img {
+  height: 250px;
+}
+#quienessomos #articulo2 img {
+  height: 250px;
 }
 
 main .carouselcontenido p {
@@ -45,6 +55,12 @@ main .carouselcontenido p {
 main .carouselcontenido img {
   height: 600px;
   width: 900px;
+}
+main .equipo img {
+  height: 250px;
+}
+main .consorcios img {
+  height: 300px;
 }
 
 #contacto img {
@@ -57,12 +73,15 @@ main .carouselcontenido img {
 
 footer {
   background-color: rgb(59, 81, 168);
+}
+footer p {
   color: rgb(250, 196, 250);
 }
-footer img {
-  height: 25px;
-  width: 25px;
-  border-radius: 60%;
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
