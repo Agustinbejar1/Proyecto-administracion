@@ -1,0 +1,15 @@
+@mixin reset {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    p{
+        text-align: justify;
+    }
+}
+
+@mixin reseteo-lista {
+    list-style-type: none;
+    color:$blanco;
+    font-size:large;
+    font-weight: bold;
+}

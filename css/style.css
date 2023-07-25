@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Raleway:wght@400;700;900&display=swap");
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: "raleway";
 }
 body p {
   text-align: justify;
@@ -61,6 +60,13 @@ main .equipo img {
 }
 main .consorcios img {
   height: 300px;
+}
+
+.staff .consorcios ul li {
+  list-style-type: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
 
 #contacto img {

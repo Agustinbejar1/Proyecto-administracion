@@ -1,0 +1,9 @@
+.staff{
+    .consorcios{
+        ul{
+            li{
+                @include reseteo-lista;
+            }
+        }
+    }
+}
