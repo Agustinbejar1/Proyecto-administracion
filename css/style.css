@@ -58,10 +58,13 @@ main .carouselcontenido img {
 main .equipo img {
   height: 250px;
 }
-main .consorcios img {
+
+.staff .imagenstaff img {
+  height: 150px;
+}
+.staff .consorcios .imagenconsorcio img {
   height: 300px;
 }
-
 .staff .consorcios ul li {
   list-style-type: none;
   color: white;

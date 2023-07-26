@@ -1,5 +1,15 @@
 .staff{
+    .imagenstaff{
+        img{
+            height: 150px
+        }
+    }
     .consorcios{
+        .imagenconsorcio{
+            img{
+                height: 300px
+            }
+        }
         ul{
             li{
                 @include reseteo-lista;
