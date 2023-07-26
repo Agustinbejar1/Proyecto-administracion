@@ -1,0 +1,12 @@
+$colores: (
+    wp:rgb(6, 216, 6),
+    facebook:blue,
+    instagram:$instagram,
+    iconos:$blanco,
+);
+
+@each $nombre, $color in $colores {
+    .#{$nombre} {
+        color: $color;
+    }
+}

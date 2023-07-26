@@ -9,9 +9,14 @@ main{
         #seccionprincipal {
             background: $bg-rosado;
             box-shadow: 10px 15px 55px;
+            transition: 2s;
             img{
-                height: 200px;
-                width: 200px;
+                height: 180px;
+                width: 180px;
+                &:hover{
+                    width: 200px;
+                    height: 200px;
+                }
             }
         
         }

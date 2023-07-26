@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Raleway:wght@400;700;900&display=swap");
+.wp {
+  color: rgb(6, 216, 6);
+}
+
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: rgba(226, 125, 230, 0.829);
+}
+
+.iconos {
+  color: white;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -9,7 +25,7 @@ body p {
 }
 
 header {
-  background-color: rgb(59, 81, 168);
+  background-color: rgb(85, 110, 211);
 }
 header nav {
   font-family: "raleway";
@@ -32,10 +48,15 @@ main .portada {
 main #seccionprincipal {
   background: linear-gradient(120deg, rgba(148, 109, 132, 0.91), rgb(156, 111, 111), rgb(226, 159, 159));
   box-shadow: 10px 15px 55px;
+  transition: 2s;
 }
 main #seccionprincipal img {
-  height: 200px;
+  height: 180px;
+  width: 180px;
+}
+main #seccionprincipal img:hover {
   width: 200px;
+  height: 200px;
 }
 main .imagenhome img {
   height: 250px;
@@ -53,14 +74,18 @@ main .carouselcontenido p {
 }
 main .carouselcontenido img {
   height: 600px;
-  width: 900px;
+  width: 800px;
 }
 main .equipo img {
-  height: 250px;
+  height: 200px;
 }
 
 .staff .imagenstaff img {
-  height: 150px;
+  height: 200px;
+  transition: transform 1s;
+}
+.staff .imagenstaff img:hover {
+  transform: rotateY(360deg);
 }
 .staff .consorcios .imagenconsorcio img {
   height: 300px;
@@ -81,13 +106,10 @@ main .equipo img {
 }
 
 footer {
-  background-color: rgb(59, 81, 168);
+  background-color: rgb(85, 110, 211);
 }
 footer p {
   color: rgb(250, 196, 250);
-}
-footer a {
-  color: white;
 }
 footer a:hover {
   color: black;

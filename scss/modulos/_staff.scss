@@ -1,7 +1,11 @@
 .staff{
     .imagenstaff{
         img{
-            height: 150px
+            height: 200px;
+            transition: transform 1s;
+            &:hover{
+                transform:rotateY(360deg);
+            }
         }
     }
     .consorcios{
