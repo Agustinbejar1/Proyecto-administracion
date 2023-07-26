@@ -38,7 +38,7 @@ main #seccionprincipal img {
   width: 200px;
 }
 main .imagenhome img {
-  height: 350px;
+  height: 250px;
 }
 
 #quienessomos #articulomio img {
@@ -70,8 +70,8 @@ main .consorcios img {
 }
 
 #contacto img {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
 #contacto .formulario input:hover {
   background-color: bisque;
