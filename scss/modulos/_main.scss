@@ -8,21 +8,16 @@ main{
     }
         #seccionprincipal {
             background: $bg-rosado;
-            box-shadow: 10px 15px 55px;
-            transition: 2s;
+            box-shadow: 15px 15px 55px;
             img{
-                height: 180px;
-                width: 180px;
-                &:hover{
-                    width: 200px;
-                    height: 200px;
-                }
+                height: 160px;
+                width: 160px;
             }
         
         }
         .imagenhome{
             img{
-                height: 250px;
+                height: 230px;
             }  
         }
 }

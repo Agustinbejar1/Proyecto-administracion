@@ -25,7 +25,7 @@ body p {
 }
 
 header {
-  background-color: rgb(85, 110, 211);
+  background-color: rgb(75, 105, 228);
 }
 header nav {
   font-family: "raleway";
@@ -47,26 +47,21 @@ main .portada {
 }
 main #seccionprincipal {
   background: linear-gradient(120deg, rgba(148, 109, 132, 0.91), rgb(156, 111, 111), rgb(226, 159, 159));
-  box-shadow: 10px 15px 55px;
-  transition: 2s;
+  box-shadow: 15px 15px 55px;
 }
 main #seccionprincipal img {
-  height: 180px;
-  width: 180px;
-}
-main #seccionprincipal img:hover {
-  width: 200px;
-  height: 200px;
+  height: 160px;
+  width: 160px;
 }
 main .imagenhome img {
-  height: 250px;
+  height: 230px;
 }
 
 #quienessomos #articulomio img {
-  height: 250px;
+  height: 200px;
 }
 #quienessomos #articulo2 img {
-  height: 250px;
+  height: 200px;
 }
 
 main .carouselcontenido p {
@@ -82,7 +77,7 @@ main .equipo img {
 
 .staff .imagenstaff img {
   height: 200px;
-  transition: transform 1s;
+  transition: transform 2s;
 }
 .staff .imagenstaff img:hover {
   transform: rotateY(360deg);
@@ -106,7 +101,7 @@ main .equipo img {
 }
 
 footer {
-  background-color: rgb(85, 110, 211);
+  background-color: rgb(75, 105, 228);
 }
 footer p {
   color: rgb(250, 196, 250);
